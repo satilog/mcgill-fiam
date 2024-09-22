@@ -1,0 +1,4 @@
+export GOOGLE_APPLICATION_CREDENTIALS="./mcgill-fiam-154324-403359a55842.json"
+
+# List out available gpus 
+gcloud compute accelerator-types list
