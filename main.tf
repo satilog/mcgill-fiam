@@ -19,14 +19,14 @@ resource "google_compute_firewall" "allow_jupyter" {
 # List of zones with available NVIDIA T4 GPUs to try
 variable "zones" {
   default = [
-    # "us-central1-a",
-    # "us-central1-b",
-    # "us-central1-c",
-    # "us-west1-a",
+    "us-central1-a",
+    "us-central1-b",
+    "us-central1-c",
+    "us-west1-a",
     "us-west1-b",
-    # "us-west1-c",
-    # "europe-west1-b",
-    # "asia-east1-a"
+    "us-west1-c",
+    "europe-west1-b",
+    "asia-east1-a"
   ]
 }
 
